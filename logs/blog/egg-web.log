@@ -13089,3 +13089,20 @@ hostname: DESKTOP-R1VCF7F
 2021-05-28 20:17:58,304 INFO 16280 [egg-watcher:application] watcher start success
 2021-05-28 20:17:58,306 INFO 16280 [egg-mysql] instance[0] status OK, rds currentTime: Fri May 28 2021 20:17:58 GMT+0800 (中国标准时间)
 2021-05-28 20:17:58,311 INFO 16280 [egg:core] dump config after ready, 4ms
+2021-05-28 20:18:02,078 INFO 9820 [egg:logger] init all loggers with options: {"dir":"D:\\blog\\logs\\blog","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-05-28 20:18:02,102 INFO 9820 [egg-multipart] stream mode enable
+2021-05-28 20:18:02,103 INFO 9820 [egg-mysql] connecting root@localhost:3306/blog
+2021-05-28 20:18:02,218 INFO 9820 [egg-static] starting static serve /static/ -> D:\blog\app\public
+2021-05-28 20:18:02,220 INFO 9820 [egg-security] use csrf middleware
+2021-05-28 20:18:02,221 INFO 9820 [egg-security] use methodnoallow middleware
+2021-05-28 20:18:02,221 INFO 9820 [egg-security] use noopen middleware
+2021-05-28 20:18:02,222 INFO 9820 [egg-security] use nosniff middleware
+2021-05-28 20:18:02,222 INFO 9820 [egg-security] use xssProtection middleware
+2021-05-28 20:18:02,222 INFO 9820 [egg-security] use xframe middleware
+2021-05-28 20:18:02,223 INFO 9820 [egg-security] use dta middleware
+2021-05-28 20:18:02,223 INFO 9820 [egg-security] compose 7 middlewares into one security middleware
+2021-05-28 20:18:02,236 INFO 9820 [egg:core] dump config after load, 4ms
+2021-05-28 20:18:02,249 INFO 9820 [egg-watcher:application] watcher start success
+2021-05-28 20:18:02,251 INFO 9820 [egg-mysql] instance[0] status OK, rds currentTime: Fri May 28 2021 20:18:02 GMT+0800 (中国标准时间)
+2021-05-28 20:18:02,256 INFO 9820 [egg:core] dump config after ready, 4ms
+2021-05-28 20:18:06,624 INFO 9820 [egg-view-nunjucks] loading templates from ["D:\\blog\\app\\view"]
