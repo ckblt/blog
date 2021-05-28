@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ckblt的博客</title>
+
+    <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="/static/css/base.css" />
+    <link rel="stylesheet" href="/static/css/blog-all.css" />
+
+    <script src="/static/js/base.js"></script>
+    <script src="/static/js/blog-all.js"></script>
+  </head>
+
+  <body>
+    <div id="nav"></div>
+
+    <div id="main">
+      <div id="tool">
+        <form>
+          排序
+          <select name="sort" id="sort">
+            <option value="new-old" class="new-old">最新-最旧</option>
+            <option value="old-new" class="old-new">最旧-最新</option>
+            <option value="a-z" class="a-z">A-Z</option>
+            <option value="z-a" class="z-a">Z-A</option>
+          </select>
+
+          <button>确定</button>
+        </form>
+      </div>
+
+      <div id="blogs">
+        {% for blog in blogs %}
+        <a href="/blog/{{ blog.id }}" class="blog">
+          <div class="col">
+            <img src="{{ blog.img }}" alt="Img" />
+          </div>
+          <div>
+            <div class="col">
+              <h1>{{ blog.title }}</h1>
+              <h6>#{{ blog.id }}</h6>
+            </div>
+            <div class="col">
+              <p>
+                于 {{ blog.date.getFullYear() }}/{{ blog.date.getMonth() + 1
+                }}/{{ blog.date.getDate() }} 发布
+              </p>
+            </div>
+            <div class="col">
+              <p>{{ blog.content.slice(0, 60) }} ...</p>
+            </div>
+            <div class="col type">
+              {% for type in blog.type %}
+              <strong>{{ type }}</strong>
+              {% endfor %}
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div id="ftr"></div>
+  </body>
+</html>

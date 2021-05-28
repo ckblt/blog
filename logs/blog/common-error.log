@@ -1,0 +1,2187 @@
+2021-05-01 18:04:51,363 ERROR 9660 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 9660
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:06:16,681 ERROR 9660 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 9660
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:21:31,848 ERROR 10616 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: Can't find viewEngine for D:\blog\app\view\home\index.html
+    at ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:66:5)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 10616
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:23:01,126 ERROR 1336 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: Can't find viewEngine for D:\blog\app\view\home\index.tpl
+    at ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:66:5)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 1336
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:23:02,135 ERROR 1336 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find viewEngine for D:\blog\app\view\home\index.tpl
+    at ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:66:5)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 1336
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:23:13,567 ERROR 11992 [-/127.0.0.1/-/6ms GET /] nodejs.AssertionError: Can't find viewEngine for D:\blog\app\view\home\index.tpl
+    at ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:66:5)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 11992
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:23:52,399 ERROR 11992 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find home/index.tpl from D:\blog\app\view
+    at Map.resolve (D:\blog\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11992
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:24:01,836 ERROR 8212 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: Can't find home/index.htmn from D:\blog\app\view
+    at Map.resolve (D:\blog\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 8212
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:24:04,278 ERROR 9768 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: Can't find viewEngine for D:\blog\app\view\home\index.html
+    at ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:66:5)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9768
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:25:10,324 ERROR 12148 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\blog\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12148
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 18:26:02,559 ERROR 12148 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (D:\blog\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:69:39)
+    at async HomeController.index (D:\blog\app\controller\home.js:5:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 12148
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 20:19:28,562 ERROR 2296 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2296
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 21:26:20,215 ERROR 16308 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 38, Column 65]
+  unexpected token: /
+  unexpected token: /
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 16308
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 21:26:44,862 ERROR 16308 [-/127.0.0.1/-/2ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 38, Column 65]
+  unexpected token: /
+  unexpected token: /
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 16308
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 21:27:08,351 ERROR 16308 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 38, Column 65]
+  unexpected token: /
+  unexpected token: /
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 16308
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 21:29:54,524 ERROR 2296 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 2296
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 21:43:04,912 ERROR 3572 [-/127.0.0.1/-/4ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 42, Column 42]
+  Error: Unable to call `blog["date"]["getFullYears"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYears"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:73:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 3572
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 21:46:07,673 ERROR 3572 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 42, Column 42]
+  Error: Unable to call `blog["date"]["getFullYears"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYears"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:73:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 3572
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 21:58:27,899 ERROR 7812 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: this.app.mysql.select(...).reverse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:13:50)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 7812
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:03:38,835 ERROR 9768 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: this.app.mysql.select(...).reverse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:13:50)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 9768
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:03:49,877 ERROR 9768 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.app.mysql.select(...).reverse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:13:50)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 9768
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:05:11,969 ERROR 15676 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: this.app.mysql.select(...).reverse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:5:49)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 15676
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:05:20,244 ERROR 15676 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.app.mysql.select(...).reverse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:5:49)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 15676
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:05:20,955 ERROR 15676 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.app.mysql.select(...).reverse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:5:49)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 15676
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:08:29,937 ERROR 13124 [-/127.0.0.1/-/19ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 48, Column 37]
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:99:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 13124
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:08:37,296 ERROR 13124 [-/127.0.0.1/-/19ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 48, Column 37]
+  Error: Unable to call `Json["parse"]`, which is undefined or falsey
+  Error: Unable to call `Json["parse"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:99:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 13124
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:08:48,262 ERROR 13124 [-/127.0.0.1/-/19ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 48, Column 37]
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:99:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 13124
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:08:48,975 ERROR 13124 [-/127.0.0.1/-/19ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 48, Column 37]
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:99:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 13124
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:10:25,231 ERROR 12248 [-/127.0.0.1/-/20ms GET /] nodejs.Template render error: (D:\blog\app\view\home\index.html) [Line 48, Column 38]
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+  Error: Unable to call `JSON["parse"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:99:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 12248
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:12:17,085 ERROR 7484 [-/127.0.0.1/-/6ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:15:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7484
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:12:39,795 ERROR 5392 [-/127.0.0.1/-/5ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:15:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 5392
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:14:13,387 ERROR 13188 [-/127.0.0.1/-/5ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:16:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 13188
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:14:38,546 ERROR 7988 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: sdata is not defined
+    at HomeController.index (D:\blog\app\controller\home.js:16:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 7988
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:14:46,994 ERROR 2768 [-/127.0.0.1/-/5ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:16:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 2768
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:16:08,725 ERROR 500 [-/127.0.0.1/-/8ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:16:14)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 500
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:16:10,130 ERROR 12292 [-/127.0.0.1/-/5ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:16:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 12292
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:17:17,690 ERROR 11708 [-/127.0.0.1/-/5ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:16:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 11708
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:17:46,819 ERROR 14032 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: JSON.uparse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:16:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 14032
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:17:52,540 ERROR 14032 [-/127.0.0.1/-/2ms GET /] nodejs.TypeError: JSON.uparse is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:16:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 14032
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:17:53,802 ERROR 10312 [-/127.0.0.1/-/6ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:16:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10312
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:17:54,780 ERROR 10312 [-/127.0.0.1/-/2ms GET /] nodejs.SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:16:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10312
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:20:18,131 ERROR 5872 [-/127.0.0.1/-/6ms GET /] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:17:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 5872
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:20:18,803 ERROR 5872 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:17:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 5872
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:21:15,717 ERROR 5872 [-/127.0.0.1/-/2ms GET /] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:17:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 5872
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:23:57,498 ERROR 9176 [-/127.0.0.1/-/6ms GET /] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:17:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9176
+hostname: DESKTOP-R1VCF7F
+
+2021-05-01 22:23:58,164 ERROR 9176 [-/127.0.0.1/-/2ms GET /] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:17:21)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9176
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:46:56,815 ERROR 11400 [-/127.0.0.1/-/6ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:9:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 11400
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:15,768 ERROR 11728 [-/127.0.0.1/-/8ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:9:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 11728
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:16,421 ERROR 2800 [-/127.0.0.1/-/5ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:11:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 2800
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:17,151 ERROR 2800 [-/127.0.0.1/-/2ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:11:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 2800
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:17,607 ERROR 2800 [-/127.0.0.1/-/1ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:11:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 2800
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:34,490 ERROR 4464 [-/127.0.0.1/-/6ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:13:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 4464
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:40,017 ERROR 4464 [-/127.0.0.1/-/2ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:13:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 4464
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:40,753 ERROR 4464 [-/127.0.0.1/-/2ms GET /blog/1] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:13:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 4464
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:52,921 ERROR 15332 [-/127.0.0.1/-/15ms GET /blog/1] nodejs.Template render error: (D:\blog\app\view\blog\index.html) [Line 25, Column 25]
+  unexpected token: }}
+  unexpected token: }}
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 15332
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:47:59,660 ERROR 15332 [-/127.0.0.1/-/5ms GET /blog/1] nodejs.Template render error: (D:\blog\app\view\blog\index.html) [Line 25, Column 30]
+  unexpected token: }}
+  unexpected token: }}
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 15332
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:48:00,499 ERROR 15332 [-/127.0.0.1/-/4ms GET /blog/1] nodejs.Template render error: (D:\blog\app\view\blog\index.html) [Line 25, Column 30]
+  unexpected token: }}
+  unexpected token: }}
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 15332
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:48:01,129 ERROR 15332 [-/127.0.0.1/-/3ms GET /blog/1] nodejs.Template render error: (D:\blog\app\view\blog\index.html) [Line 25, Column 30]
+  unexpected token: }}
+  unexpected token: }}
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 15332
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:48:03,625 ERROR 15332 [-/127.0.0.1/-/2ms GET /blog/1] nodejs.Template render error: (D:\blog\app\view\blog\index.html) [Line 25, Column 30]
+  unexpected token: }}
+  unexpected token: }}
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:538:21)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 15332
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:48:33,506 ERROR 14316 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14316
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:59:08,870 ERROR 9392 [-/127.0.0.1/-/2ms GET /blog/2] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:10:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 9392
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 09:59:19,441 ERROR 9392 [-/127.0.0.1/-/1ms GET /blog/2] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:10:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 9392
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 10:00:23,873 ERROR 8800 [-/127.0.0.1/-/7ms GET /blog/2] nodejs.TypeError: Cannot read property 'img' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:12:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 8800
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 10:00:25,174 ERROR 15004 [-/127.0.0.1/-/7ms GET /blog/2] nodejs.TypeError: Cannot read property 'img' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:12:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 15004
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 10:00:26,721 ERROR 15004 [-/127.0.0.1/-/2ms GET /blog/2] nodejs.TypeError: Cannot read property 'img' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:12:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 15004
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 10:00:55,751 ERROR 15300 [-/127.0.0.1/-/7ms GET /blog/2] nodejs.TypeError: Cannot read property 'img' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:12:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 15300
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 10:01:23,384 ERROR 5940 [-/127.0.0.1/-/6ms GET /blog/2] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:11:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 5940
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 10:01:24,642 ERROR 5940 [-/127.0.0.1/-/2ms GET /blog/2] nodejs.TypeError: Cannot read property 'type' of undefined
+    at BlogController.index (D:\blog\app\controller\blog.js:11:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+    at async D:\blog\node_modules\koa-static-cache\index.js:41:56
+
+pid: 5940
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 13:00:05,697 ERROR 14316 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14316
+hostname: DESKTOP-R1VCF7F
+
+2021-05-02 15:35:31,642 ERROR 14316 nodejs.ClusterClientNoResponseError: client no response in 6493857ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 14316
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:14:13,888 ERROR 7268 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at BlogService.findAll (D:\blog\app\service\blog.js:5:37)
+    at HomeController.index (D:\blog\app\controller\home.js:6:39)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+
+pid: 7268
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:14:46,311 ERROR 3744 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: Cannot read property 'query' of undefined
+    at BlogService.findAll (D:\blog\app\service\blog.js:5:40)
+    at HomeController.index (D:\blog\app\controller\home.js:6:39)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+
+pid: 3744
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:15:40,896 ERROR 7156 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property 'select' of undefined
+    at BlogService.findAll (D:\blog\app\service\blog.js:5:40)
+    at HomeController.index (D:\blog\app\controller\home.js:6:39)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+
+pid: 7156
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:16:26,637 ERROR 15004 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: Cannot read property 'select' of undefined
+    at BlogService.findAll (D:\blog\app\service\blog.js:5:40)
+    at HomeController.index (D:\blog\app\controller\home.js:6:39)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+
+pid: 15004
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:38:30,537 ERROR 14704 [-/127.0.0.1/-/6ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'sadiuedhgia'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at HomeController.index (D:\blog\app\controller\home.js:14:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "sadiuedhgia"
+name: "ENOENTError"
+pid: 14704
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:39:32,842 ERROR 11124 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: Cannot read property 'reverse' of undefined
+    at HomeController.index (D:\blog\app\controller\home.js:9:13)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 11124
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:39:33,889 ERROR 11124 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'reverse' of undefined
+    at HomeController.index (D:\blog\app\controller\home.js:9:13)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 11124
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:50:32,765 ERROR 12104 [-/127.0.0.1/-/4ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/1/config.json'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:20:13
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/1/config.json"
+name: "ENOENTError"
+pid: 12104
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:50:57,262 ERROR 10996 [-/127.0.0.1/-/4ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/1/config.json'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:20:13
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/1/config.json"
+name: "ENOENTError"
+pid: 10996
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:51:12,967 ERROR 10944 [-/127.0.0.1/-/4ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blog/1/config.json'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:20:13
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blog/1/config.json"
+name: "ENOENTError"
+pid: 10944
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:51:18,623 ERROR 10944 [-/127.0.0.1/-/1ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blog/1/config.json'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:20:13
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blog/1/config.json"
+name: "ENOENTError"
+pid: 10944
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:51:20,496 ERROR 13596 [-/127.0.0.1/-/5ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blogs/3/md.md'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:22:22
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blogs/3/md.md"
+name: "ENOENTError"
+pid: 13596
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:51:31,575 ERROR 11892 [-/127.0.0.1/-/4ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blogs/0/md.md'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:22:22
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blogs/0/md.md"
+name: "ENOENTError"
+pid: 11892
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:51:32,353 ERROR 11892 [-/127.0.0.1/-/1ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blogs/0/md.md'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:22:22
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blogs/0/md.md"
+name: "ENOENTError"
+pid: 11892
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:51:33,840 ERROR 11892 [-/127.0.0.1/-/1ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blogs/0/md.md'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:22:22
+    at HomeController.index (D:\blog\app\controller\home.js:36:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blogs/0/md.md"
+name: "ENOENTError"
+pid: 11892
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:52:07,215 ERROR 6416 [-/127.0.0.1/-/5ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blogs/3/config.json'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:21:13
+    at HomeController.index (D:\blog\app\controller\home.js:37:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blogs/3/config.json"
+name: "ENOENTError"
+pid: 6416
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:52:08,128 ERROR 6416 [-/127.0.0.1/-/1ms GET /] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\controller/../public/blogs/3/config.json'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at D:\blog\app\controller\home.js:21:13
+    at HomeController.index (D:\blog\app\controller\home.js:37:9)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\controller/../public/blogs/3/config.json"
+name: "ENOENTError"
+pid: 6416
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:52:25,189 ERROR 17888 [-/127.0.0.1/-/4ms GET /] nodejs.SyntaxError: Unexpected token S in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:43:21)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+
+pid: 17888
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 10:52:44,639 ERROR 17888 [-/127.0.0.1/-/1ms GET /] nodejs.SyntaxError: Unexpected token S in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at HomeController.index (D:\blog\app\controller\home.js:43:21)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+
+pid: 17888
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 11:01:56,926 ERROR 5152 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'reverse' of undefined
+    at HomeController.index (D:\blog\app\controller\home.js:9:11)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 5152
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 11:03:39,998 ERROR 9200 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: this.service.blog.findAllk is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:7:39)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 9200
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 11:03:43,408 ERROR 9200 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: this.service.blog.findAllk is not a function
+    at HomeController.index (D:\blog\app\controller\home.js:7:39)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at D:\blog\node_modules\koa-compose\index.js:36:12
+
+pid: 9200
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 11:06:11,789 ERROR 8916 [-/127.0.0.1/-/4ms GET /] nodejs.ReferenceError: readFileSync is not defined
+    at BlogService.findAll (D:\blog\app\service\blog.js:19:27)
+    at HomeController.index (D:\blog\app\controller\home.js:7:39)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+    at D:\blog\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+
+pid: 8916
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 11:11:46,718 ERROR 9976 [-/127.0.0.1/-/4ms GET /blog/2] nodejs.SyntaxError: Unexpected token 日 in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at BlogController.index (D:\blog\app\controller\blog.js:11:27)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 9976
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 14:31:58,358 ERROR 15444 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15444
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 17:12:21,583 ERROR 15444 nodejs.ClusterClientNoResponseError: client no response in 2650508ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 15444
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 19:49:44,551 ERROR 8820 nodejs.TypeError: Cannot read property 'URL' of undefined
+    at LogService.log (D:\blog\app\service\log.js:7:32)
+    at HomeController.index (D:\blog\app\controller\search.js:9:22)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8820
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:26:01,825 ERROR 7224 [-/127.0.0.1/-/8ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'undefined' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:9:17)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 7224
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:31:14,191 ERROR 17180 [-/127.0.0.1/-/6ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 17180
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:52:48,600 ERROR 6168 [-/127.0.0.1/-/8ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 6168
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:52:49,623 ERROR 17212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17212
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:52:50,588 ERROR 10212 [-/127.0.0.1/-/6ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10212
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:53:02,015 ERROR 10212 [-/127.0.0.1/-/3ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10212
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:53:02,598 ERROR 10212 [-/127.0.0.1/-/2ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 10212
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:53:45,036 ERROR 9248 [-/127.0.0.1/-/5ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9248
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:54:29,238 ERROR 9248 [-/127.0.0.1/-/3ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9248
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 20:54:29,677 ERROR 9248 [-/127.0.0.1/-/1ms GET /search?s=index&_csrf=UWjEAL7L-5TQA4D9w7pN_W5rCjfkjI5ZDtKA] nodejs.TypeError: Cannot use 'in' operator to search for 'index' in 我的日常
+    at BlogService.search (D:\blog\app\service\blog.js:71:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 9248
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 21:14:38,948 ERROR 15312 [-/127.0.0.1/-/5ms GET /search?s=SASS&_csrf=MfFjUyWw-Gpxx0W2pxuqyCDacg9tpB7HbCso] nodejs.TypeError: blog.match is not a function
+    at BlogService.search (D:\blog\app\service\blog.js:71:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:10:7)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 15312
+hostname: DESKTOP-R1VCF7F
+
+2021-05-03 21:26:12,404 ERROR 9472 [-/127.0.0.1/-/5ms GET /search] nodejs.TypeError: Cannot read property 'toLowerCase' of null
+    at BlogService.search (D:\blog\app\service\blog.js:71:44)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async HomeController.index (D:\blog\app\controller\search.js:6:14)
+
+pid: 9472
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:08:40,063 ERROR 6036 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6036
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:10:56,088 ERROR 10920 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 10920
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:16:34,851 ERROR 14076 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 14076
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:16:51,152 ERROR 17640 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17640
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:16:51,700 ERROR 17640 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17640
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:16:52,844 ERROR 17640 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17640
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:18:17,420 ERROR 17640 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17640
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:18:18,084 ERROR 17640 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17640
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:18:18,523 ERROR 17640 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17640
+hostname: DESKTOP-R1VCF7F
+
+2021-05-04 10:18:19,540 ERROR 17640 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17640
+hostname: DESKTOP-R1VCF7F
+
+2021-05-14 18:33:34,105 ERROR 2696 [-/::1/-/23ms GET /search?s=csss&_csrf=cqrmYNwz-s82giHEiWRiGZ9GbVI6W0tpOLtM] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 2696
+hostname: DESKTOP-R1VCF7F
+
+2021-05-14 18:33:36,653 ERROR 2696 [-/::1/-/5ms GET /search?s=csss&_csrf=cqrmYNwz-s82giHEiWRiGZ9GbVI6W0tpOLtM] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 2696
+hostname: DESKTOP-R1VCF7F
+
+2021-05-14 18:33:37,228 ERROR 2696 [-/::1/-/4ms GET /search?s=csss&_csrf=cqrmYNwz-s82giHEiWRiGZ9GbVI6W0tpOLtM] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 2696
+hostname: DESKTOP-R1VCF7F
+
+2021-05-14 18:34:17,785 ERROR 8392 [-/::1/-/17ms GET /search?s=csss&_csrf=cqrmYNwz-s82giHEiWRiGZ9GbVI6W0tpOLtM] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 8392
+hostname: DESKTOP-R1VCF7F
+
+2021-05-14 18:34:25,802 ERROR 8392 [-/::1/-/5ms GET /search?s=csss&_csrf=cqrmYNwz-s82giHEiWRiGZ9GbVI6W0tpOLtM] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 8392
+hostname: DESKTOP-R1VCF7F
+
+2021-05-14 18:34:26,265 ERROR 8392 [-/::1/-/4ms GET /search?s=csss&_csrf=cqrmYNwz-s82giHEiWRiGZ9GbVI6W0tpOLtM] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 8392
+hostname: DESKTOP-R1VCF7F
+
+2021-05-15 14:38:27,046 ERROR 2616 [-/127.0.0.1/-/1ms GET /blog/3] nodejs.ENOENTError: ENOENT: no such file or directory, open 'D:\blog\app\service/../public/blogs/3/config.json'
+    at Object.openSync (fs.js:476:3)
+    at readFileSync (fs.js:377:35)
+    at BlogService.find (D:\blog\app\service\blog.js:44:7)
+    at BlogController.index (D:\blog\app\controller\blog.js:8:37)
+    at Object.callFn (D:\blog\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\blog\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\blog\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\blog\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\blog\node_modules\koa-compose\index.js:44:32)
+    at next (D:\blog\node_modules\koa-compose\index.js:45:18)
+errno: -4058
+syscall: "open"
+code: "ENOENT"
+path: "D:\\blog\\app\\service/../public/blogs/3/config.json"
+name: "ENOENTError"
+pid: 2616
+hostname: DESKTOP-R1VCF7F
+
+2021-05-15 14:43:07,531 ERROR 13140 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13140
+hostname: DESKTOP-R1VCF7F
+
+2021-05-15 14:49:03,131 ERROR 14240 [-/127.0.0.1/-/5ms GET /blog/3] nodejs.ReferenceError: data is not defined
+    at BlogController.index (D:\blog\app\controller\blog.js:16:51)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 14240
+hostname: DESKTOP-R1VCF7F
+
+2021-05-15 14:49:03,831 ERROR 14240 [-/127.0.0.1/-/1ms GET /blog/3] nodejs.ReferenceError: data is not defined
+    at BlogController.index (D:\blog\app\controller\blog.js:16:51)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 14240
+hostname: DESKTOP-R1VCF7F
+
+2021-05-15 15:54:21,815 ERROR 10364 [-/::1/-/17ms GET /search?s=s+s&_csrf=HoFpgH3o-niO9mKyXqdbm381e5U60phoSgnQ] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 10364
+hostname: DESKTOP-R1VCF7F
+
+2021-05-15 15:54:25,096 ERROR 10364 [-/::1/-/4ms GET /search?s=s+s&_csrf=HoFpgH3o-niO9mKyXqdbm381e5U60phoSgnQ] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 10364
+hostname: DESKTOP-R1VCF7F
+
+2021-05-15 15:54:33,877 ERROR 10364 [-/::1/-/6ms GET /search?s=s+s&_csrf=U1e83V3r-Ymi6GVS1_asB7AZ2JHHloZFRfbE] nodejs.Template render error: (D:\blog\app\view\search\index.html) [Line 42, Column 40]
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+  Error: Unable to call `blog["date"]["getFullYear"]`, which is undefined or falsey
+    at Object._prettifyError (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:36:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:563:19
+    at Template.root [as rootRenderFunc] (eval at _compile (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:80:3)
+    at Template.render (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:552:10)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:327:11)
+    at D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\environment.js:339:9
+    at next (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (D:\blog\node_modules\egg-view-nunjucks\node_modules\nunjucks\src\lib.js:334:3)
+name: "Template render error"
+pid: 10364
+hostname: DESKTOP-R1VCF7F
+
+2021-05-16 18:45:25,424 ERROR 8336 [-/192.168.1.3/-/38ms GET /] nodejs.PUG:UNEXPECTED_TEXTError: D:\blog\app\view\home\index.pug:27:9
+    25| 
+    26|       #blogs
+  > 27|         {% for blog in blogs %}
+----------------^
+    28|         a(href="/blog/{{ blog.id }}" class="blog")
+    29|           .col
+    30|             img(src="{{ blog.img }}", alt="img")
+
+unexpected text "{% fo"
+    25| 
+    26|       #blogs
+  > 27|         {% for blog in blogs %}
+----------------^
+    28|         a(href="/blog/{{ blog.id }}" class="blog")
+    29|           .col
+    30|             img(src="{{ blog.img }}", alt="img")
+
+unexpected text "{% fo"
+    at makeError (D:\blog\node_modules\pug-error\index.js:34:13)
+    at Lexer.error (D:\blog\node_modules\pug-lexer\index.js:62:15)
+    at Lexer.fail (D:\blog\node_modules\pug-lexer\index.js:1629:10)
+    at Lexer.advance (D:\blog\node_modules\pug-lexer\index.js:1694:12)
+    at Lexer.callLexerFunction (D:\blog\node_modules\pug-lexer\index.js:1647:23)
+    at Lexer.getTokens (D:\blog\node_modules\pug-lexer\index.js:1706:12)
+    at lex (D:\blog\node_modules\pug-lexer\index.js:12:42)
+    at Object.lex (D:\blog\node_modules\pug\lib\index.js:104:9)
+    at Function.loadString [as string] (D:\blog\node_modules\pug-load\index.js:53:24)
+    at compileBody (D:\blog\node_modules\pug\lib\index.js:82:18)
+code: "PUG:UNEXPECTED_TEXT"
+msg: "unexpected text \"{% fo\""
+line: 27
+column: 9
+filename: "D:\\blog\\app\\view\\home\\index.pug"
+src: "doctype html\nhtml(lang=\"zh-CN\")\n  head\n    meta(charset=\"UTF-8\")\n    meta(http-equiv=\"X-UA-Compatible\" content=\"IE=edge\")\n    meta(name=\"viewport\" content=\"width=device-width, initial-scale=1.0\")\n    title Ckblt的博客\n\n    script(src=\"https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js\")\n\n    link(rel=\"stylesheet\" href=\"/static/css/base.css\")\n    link(rel=\"stylesheet\" href=\"/static/css/home.css\")\n  body\n    #nav\n\n    #main\n      .welcome\n        .img\n          img(src=\"/static/img/avatar.jpg\" alt=\"avatar\")\n        .text \n          h1 欢迎来到Ckblt的博客!\n          p 大家好，我叫朱嘉威，今年10岁了，上四年级。\n          a(href=\"{{ bilibili }}\") 我的bilibili\n          a(href=\"{{ github }}\") 我的github\n\n      #blogs\n        {% for blog in blogs %}\n        a(href=\"/blog/{{ blog.id }}\" class=\"blog\")\n          .col\n            img(src=\"{{ blog.img }}\", alt=\"img\")\n          .col\n            h1 {{ blog.title }}\n            h6 {{ blog.id }}\n          .col\n            p  于 {{ blog.date.getFullYear() }}/{{ blog.date.getMonth() + 1}}/{{ blog.date.getDate() }} 发布\n          .col\n            p {{ blog.content.slice(0, 60) }} ...\n          .col.type\n            {% for type in blog.type %}\n              strong {{ type }}\n            {% endfor %}\n        {% endfor %}\n\n    #ftr   \n\n"
+toJSON: undefined
+name: "PUG:UNEXPECTED_TEXTError"
+pid: 8336
+hostname: DESKTOP-R1VCF7F
+
+2021-05-16 18:54:45,966 ERROR 13560 [-/192.168.1.3/-/5ms GET /] nodejs.AssertionError: Can't find home/index.pug from D:\blog\app\view
+    at Map.resolve (D:\blog\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\blog\app\controller\home.js:13:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13560
+hostname: DESKTOP-R1VCF7F
+
+2021-05-16 18:54:46,742 ERROR 13560 [-/192.168.1.3/-/2ms GET /] nodejs.AssertionError: Can't find home/index.pug from D:\blog\app\view
+    at Map.resolve (D:\blog\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\blog\app\controller\home.js:13:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13560
+hostname: DESKTOP-R1VCF7F
+
+2021-05-16 18:54:50,645 ERROR 13560 [-/192.168.1.3/-/1ms GET /] nodejs.AssertionError: Can't find home/index.pug from D:\blog\app\view
+    at Map.resolve (D:\blog\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (D:\blog\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (D:\blog\app\controller\home.js:13:5)
+    at async D:\blog\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\blog\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\blog\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\blog\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\blog\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\blog\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\blog\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13560
+hostname: DESKTOP-R1VCF7F
+
+2021-05-20 21:25:08,127 ERROR 18220 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18220
+hostname: DESKTOP-R1VCF7F
+
+2021-05-23 18:33:12,281 ERROR 13992 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13992
+hostname: DESKTOP-R1VCF7F
+
+2021-05-23 18:43:42,331 ERROR 4612 [-/192.168.1.3/-/2ms GET /static/css/notFound.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "D:\\blog\\app\\public\\css\\notFound.css"
+name: "ENOENTError"
+pid: 4612
+hostname: DESKTOP-R1VCF7F
+
+2021-05-23 18:43:44,540 ERROR 4612 [-/192.168.1.3/-/0ms GET /static/css/notFound.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "D:\\blog\\app\\public\\css\\notFound.css"
+name: "ENOENTError"
+pid: 4612
+hostname: DESKTOP-R1VCF7F
+
+2021-05-23 18:43:45,584 ERROR 4612 [-/192.168.1.3/-/1ms GET /static/css/notFound.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "D:\\blog\\app\\public\\css\\notFound.css"
+name: "ENOENTError"
+pid: 4612
+hostname: DESKTOP-R1VCF7F
+
+2021-05-23 18:43:52,056 ERROR 4612 [-/192.168.1.3/-/0ms GET /static/css/notFound.css] nodejs.ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+ENOENTError: ENOENT: no such file or directory, stat 'D:\blog\app\public\css\notFound.css'
+errno: -4058
+code: "ENOENT"
+syscall: "stat"
+path: "D:\\blog\\app\\public\\css\\notFound.css"
+name: "ENOENTError"
+pid: 4612
+hostname: DESKTOP-R1VCF7F
+
+2021-05-23 18:54:59,515 ERROR 13992 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:178:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\blog\\app\\view\\notFound"
+name: "EPERMError"
+pid: 13992
+hostname: DESKTOP-R1VCF7F
+
+2021-05-23 21:40:28,804 ERROR 13992 nodejs.ClusterClientNoResponseError: client no response in 3689558ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\blog\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 13992
+hostname: DESKTOP-R1VCF7F
+
