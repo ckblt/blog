@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ckblt的博客</title>
+
+    <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="/static/css/base.css" />
+    <link rel="stylesheet" href="/static/css/search.css" />
+
+    <script src="/static/js/base.js"></script>
+    <script src="/static/js/search.js"></script>
+  </head>
+
+  <body>
+    <div id="nav"></div>
+
+    <div id="main">
+      <form action="/search" method="get">
+        <div class="search">
+          <input type="text" name="s" placeholder="搜索一些东西..." />
+          <button>搜索</button>
+        </div>
+      </form>
+      <div class="result">
+        {% for blog in blogs %}
+        <a href="/blog/{{ blog.id }}" class="blog">
+          <div class="col">
+            <img src="{{ blog.img }}" alt="Img" />
+          </div>
+          <div class="col">
+            <h1>{{ blog.title }}</h1>
+            <h6>#{{ blog.id }}</h6>
+          </div>
+          <div class="col">
+            <p>
+              于 {{ blog.date.getFullYear() }}/{{ blog.date.getMonth() + 1 }}/{{
+              blog.date.getDate() }} 发布
+            </p>
+          </div>
+          <div class="col">
+            <p>{{ blog.content.slice(0, 60) }} ...</p>
+          </div>
+          <div class="col type">
+            {% for type in blog.type %}
+            <strong>{{ type }}</strong>
+            {% endfor %}
+          </div>
+        </a>
+        {% else %}
+        <div class="not-found">
+          <h2>这里什么也没有……</h2>
+          <h1>换个姿势去搜索吧!</h1>
+          <div class="nf-svg"></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div id="ftr"></div>
+  </body>
+</html>

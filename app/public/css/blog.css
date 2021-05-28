@@ -1,0 +1,148 @@
+@import url("/static/font/JetBrainsMono.css");
+
+#blog {
+  background-color: #ccc8;
+
+  min-height: calc(100vh - 190px);
+
+  margin: 0 0 10px 0;
+  padding: 10px 0 10px 0;
+
+  border-radius: 20px;
+}
+
+#blog img {
+  border-radius: 20px;
+
+  width: 100%;
+  height: auto;
+}
+
+#blog h1 {
+  font-size: 30px;
+
+  color: #111d;
+}
+#blog h6 {
+  font-weight: normal;
+
+  font-size: 13px;
+
+  color: #555d;
+}
+#blog h5 {
+  font-weight: normal;
+  font-size: 13px;
+
+  color: #555d;
+}
+#blog .content {
+  margin: 0 0 10px 0;
+}
+#blog .content p {
+  margin: 10px 0;
+}
+#blog .content code {
+  margin: 0 2px;
+  padding: 0 2px;
+
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  font-family: "Jetbrains Mono", "Fira Code", "Source Code Pro", "Consolas",
+    "微软雅黑", "Microsoft YaHei UI";
+  font-variant-ligatures: none;
+}
+#blog .content pre {
+  margin: 10px 0;
+  padding: 10px;
+
+  background-color: #fff;
+  border-radius: 20px;
+}
+#blog .content pre code {
+  margin: 0;
+  padding: 0;
+
+  border-radius: 0;
+
+  background: none;
+
+  white-space: pre-wrap;
+}
+#blog .br {
+  display: none;
+}
+#blog .content pre code .br {
+  display: inline-block;
+}
+#blog .content pre code .br svg {
+  width: 10px;
+}
+#blog .content li {
+  margin: 0 0 0 20px;
+}
+#blog .type {
+  display: flex;
+
+  justify-content: flex-end;
+}
+#blog .type strong {
+  margin: 0 1px;
+  padding: 0 1px;
+
+  border-radius: 5px;
+
+  background-color: #fff;
+}
+#blog hr {
+  margin: 10px 0 10px 0;
+  border: 1px solid #fff;
+}
+#blog .col,
+#blog .content {
+  padding: 0 10px 0 10px;
+}
+#blog .daily {
+  background-color: #eeed;
+
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+#blog .daily hr {
+  border: #000;
+}
+#blog a {
+  color: #44e;
+
+  text-decoration: none;
+}
+#blog a:hover {
+  text-decoration: underline;
+}
+#blog a:active {
+  color: #e44;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 70px 0 0 0;
+  }
+  #main {
+    margin: 0;
+  }
+
+  #blog {
+    margin: 0;
+    padding: 0 0 10px 0;
+    border-radius: 0;
+  }
+  #blog .img {
+    padding: 0;
+  }
+  #blog .img img {
+    border-radius: 0;
+  }
+}
