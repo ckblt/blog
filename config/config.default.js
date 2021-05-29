@@ -34,13 +34,13 @@ module.exports = (appInfo) => {
     prefix: "/static/",
   };
 
-  config.mysql = {
-    client: {
-      // xxxxx
-    },
-    app: true,
-    agent: false,
-  };
+  // config.mysql = {
+  //   client: {
+  //     // xxxxx
+  //   },
+  //   app: true,
+  //   agent: false,
+  // };
 
   config.cluster = {
     listen: {
